@@ -1,4 +1,4 @@
-FROM 120717539064.dkr.ecr.us-west-2.amazonaws.com/golang:1.16-alpine
+FROM golang:1.16-alpine
 WORKDIR /app
 COPY go.mod .
 COPY go.sum .
